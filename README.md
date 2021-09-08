@@ -1,7 +1,7 @@
 # Carbon-Predictions
 Predicting Carbon Concentrations at different P, T and Melt Compositions
 
-Dataset_M is the file for our training data set containing different values of pressure,temperature and melt compositions (Iron, Nickel and Sulfur, Carbon). We train the different machine learning models on this data and predict Carbon values (C) based on the predictors - P, T, Fe, Ni, S. 
+Dataset_M is the file for our training data set containing different values of pressure (GPa),temperature (°C) and melt compositions (Iron, Nickel and Sulfur, Carbon in wt%). Our objective is to predict the Carbon Concentration based on the measured values of P, T, Fe, Ni, S. For this purpose we set P, T, Fe, Ni, S to be the predictors and Carbon to be our target variable and train different ML models to find the best model (based on MAE, MSE or RMSE) for our study that can predict the Carbon values with sufficiently good accuracy.
 
 Dataset_O is our new test data whereby we predict the Cabon concentratrions based on the measured values of P, T, Fe, Ni, S from the best model (Extra Trees) obtained from training on Dataset_M  
 
