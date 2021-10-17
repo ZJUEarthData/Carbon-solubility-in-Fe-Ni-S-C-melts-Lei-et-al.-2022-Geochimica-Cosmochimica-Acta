@@ -1,4 +1,4 @@
-# Carbon in the deep upper mantle and transition zone under reduced conditions : insights from high pressure experiments and machine learning models
+# Carbon in the deep upper mantle and transition zone under reduced conditions : insights from high-pressure experiments and machine learning models
 Jiali Lei, J ZhangZhou and Sayan Sen
 
 Dataset_M is the file for our training data set containing different values of pressure (GPa),temperature (°C) and melt compositions (Iron, Nickel and Sulfur, Carbon in wt%). Our objective is to predict the Carbon Concentration based on the measured values of P, T, Fe, Ni, S. For this purpose we set P, T, Fe, Ni, S to be the predictors and Carbon to be our target variable and train different ML models to find the best model (based on MAE, MSE or RMSE) for our study that can predict the Carbon values with sufficiently good accuracy.
